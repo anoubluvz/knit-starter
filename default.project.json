@@ -1,0 +1,54 @@
+{
+  "name": "sorcerers-eden",
+  "tree": {
+      "$className": "DataModel",
+
+      "ReplicatedStorage": {
+          "$className": "ReplicatedStorage",
+          "Packages": {
+              "$path": "Packages",
+              "$ignoreUnknownInstances": true
+          },
+          "Shared": {
+              "$path": "src/Shared",
+              "$ignoreUnknownInstances": true
+          }
+      },
+
+      "ServerScriptService": {
+          "$className": "ServerScriptService",
+          "Source": {
+              "$path": "src/Server/ServerScriptService",
+              "$ignoreUnknownInstances": true
+          }
+      },
+
+      "ServerStorage": {
+          "$className": "ServerStorage",
+          "Source": {
+              "$path": "src/Server/ServerStorage",
+              "$ignoreUnknownInstances": true
+          }
+      },
+
+      "StarterPlayer": {
+          "$className": "StarterPlayer",
+          "StarterPlayerScripts": {
+              "$className": "StarterPlayerScripts",
+              "Source": {
+                  "$path": "src/Client/PlayerScripts",
+                  "$ignoreUnknownInstances": true
+              }
+          }
+      },
+
+      "ReplicatedFirst": {
+          "$className": "ReplicatedFirst",
+          "Source": {
+              "$path": "src/Client/ReplicatedFirst",
+              "$ignoreUnknownInstances": true
+          }
+      }
+
+  }
+}
