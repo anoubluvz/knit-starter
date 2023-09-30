@@ -40,7 +40,7 @@ Using the **$ignoreUnknownInstances** attribute on files in the rojo settings js
 This works right out of the box you just clone the repo and install dependencies and start writing away after hooking it using rojo
 
 ```bash
-    git clone https://github.com/syntomy/knit-project.git
+    git clone https://github.com/syntomy/knit-starter.git
     wally install
     rojo serve
 ```
