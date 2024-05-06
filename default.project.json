@@ -1,54 +1,54 @@
 {
   "name": "your-games-name",
   "tree": {
-      "$className": "DataModel",
+    "$className": "DataModel",
 
-      "ReplicatedStorage": {
-          "$className": "ReplicatedStorage",
-          "Packages": {
-              "$path": "Packages",
-              "$ignoreUnknownInstances": true
-          },
-          "Shared": {
-              "$path": "src/Shared",
-              "$ignoreUnknownInstances": true
-          }
+
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+      "Packages": {
+        "$path": "Packages",
+        "$ignoreUnknownInstances": true
       },
-
-      "ServerScriptService": {
-          "$className": "ServerScriptService",
-          "Source": {
-              "$path": "src/Server/ServerScriptService",
-              "$ignoreUnknownInstances": true
-          }
-      },
-
-      "ServerStorage": {
-          "$className": "ServerStorage",
-          "Source": {
-              "$path": "src/Server/ServerStorage",
-              "$ignoreUnknownInstances": true
-          }
-      },
-
-      "StarterPlayer": {
-          "$className": "StarterPlayer",
-          "StarterPlayerScripts": {
-              "$className": "StarterPlayerScripts",
-              "Source": {
-                  "$path": "src/Client/PlayerScripts",
-                  "$ignoreUnknownInstances": true
-              }
-          }
-      },
-
-      "ReplicatedFirst": {
-          "$className": "ReplicatedFirst",
-          "Source": {
-              "$path": "src/Client/ReplicatedFirst",
-              "$ignoreUnknownInstances": true
-          }
+      "Shared": {
+        "$path": "Source/Shared",
+        "$ignoreUnknownInstances": true
       }
+    },
 
+    "ServerScriptService": {
+      "$className": "ServerScriptService",
+      "Source": {
+        "$path": "Source/Server/ServerScriptService",
+        "$ignoreUnknownInstances": true
+      }
+    },
+
+    "ServerStorage": {
+      "$className": "ServerStorage",
+      "Source": {
+        "$path": "Source/Server/ServerStorage",
+        "$ignoreUnknownInstances": true
+      }
+    },
+
+    "StarterPlayer": {
+      "$className": "StarterPlayer",
+      "StarterPlayerScripts": {
+        "$className": "StarterPlayerScripts",
+        "Source": {
+          "$path": "Source/Client/PlayerScripts",
+          "$ignoreUnknownInstances": true
+        }
+      }
+    },
+
+    "ReplicatedFirst": {
+      "$className": "ReplicatedFirst",
+      "Source": {
+        "$path": "Source/Client/ReplicatedFirst",
+        "$ignoreUnknownInstances": true
+      }
+    }
   }
 }
